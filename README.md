@@ -1,8 +1,6 @@
 # Full Stack Blog
 
-<p>
-In this project, I want to create, from scratch, a website with a database.
-</p>
+In this project, I want to create, from scratch, a website with a database. This will be for educational purposes -- I will make a real blog after and host it on my Raspberry pi :)
 
 ### July 8 2022
 I'm starting from a `create-react-app` project template and moving from there. 
