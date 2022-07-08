@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Full Stack Blog
+
+<p>
+In this project, I want to create, from scratch, a website with a database.
+</p>
+
+### July 8 2022
+I'm starting from a `create-react-app` project template and moving from there. 
+
+
+______________________________
+# Documentation for React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
