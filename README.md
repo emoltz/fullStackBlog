@@ -4,7 +4,7 @@ In this project, I want to create, from scratch, a website with a database. This
 
 ### July 8 2022
 I'm starting from a `create-react-app` project template and moving from there. 
-
+I'm actually torn whether I should use Bootstrap or not. On the one hand, I want to build this from scratch, so it might be best if I implement my own CSS since this is for educational purposes. On the other, it's also good practice to use and modify existing code. So we shall see...
 
 ______________________________
 # Documentation for React App
