@@ -1,9 +1,9 @@
-// import './App.css';
+import './App.css';
 // bootstrap import: ---->
-import './bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'jquery/dist/jquery.min.js'
-import 'bootstrap/dist/js/bootstrap.min.js'
+// import './bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css'
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'jquery/dist/jquery.min.js'
+// import 'bootstrap/dist/js/bootstrap.min.js'
 import Homepage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ArticlePage from './pages/ArticlePage';
@@ -21,7 +21,7 @@ class App extends Component {
     render() {
         return (
             <div className={"App"}>
-                <NavBar/>
+                <NavBar />
                 <div className={"page-body"}>
                     <Router>
                         <Routes>
