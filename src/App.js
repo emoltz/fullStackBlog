@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 // bootstrap import: ---->
 import './bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,7 +29,7 @@ class App extends Component {
                             <Route path={"/"} element={<Homepage/>} exact></Route>
                             <Route path={"/about"} element={<AboutPage/>}></Route>
                             <Route path={"/articles-list"} element={<ArticlesList/>}></Route>
-                            <Route path={"/article-page"} element={<ArticlePage/>}></Route>
+                            <Route path={"/article/:name"} element={<ArticlePage/>}></Route>
                         </Routes>
                     </Router>
                 </div>

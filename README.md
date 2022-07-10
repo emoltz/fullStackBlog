@@ -11,7 +11,9 @@ Ok, I've given in to bootstrap. I think I will focus more on the hosting and bac
 
 Nevermind -- I went back and erased the bootstrap. Going to use only custom CSS here! I think I will keep really "low-budget" to to speak. 
 
-Nevermind again. I am back to bootstrap. Here is the reason: I am trying to wrestle with `react-router-dom` and it's absolutely killing me. They upgraded from v5 to v6 and changed a whole bunch of stuff, making this nav bar tutorial useless to me. 
+Nevermind again. I am back to bootstrap. Here is the reason: I am trying to wrestle with `react-router-dom` and it's absolutely killing me. They upgraded from v5 to v6 and changed a whole bunch of stuff, making this nav bar tutorial useless to me.
+
+Wow... I am really wrestling with `react-router-dom`. It is very challenging to develop in an environment that has changed so drastically so quickly without any backwards compatibility. I have spent *hours* looking up stuff online about how to do certain things and everyone tells me different stuff. Eventually with experimentation I will figure it out, but it is *not* fun. 
 ______________________________
 # Documentation for React App
 
