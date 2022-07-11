@@ -31,7 +31,7 @@ class App extends Component {
                             <Route path={"/"} element={<Homepage/>} exact></Route>
                             <Route path={"/about"} element={<AboutPage/>}></Route>
                             <Route path={"/articles-list"} element={<ArticlesList/>}></Route>
-                            <Route path={"/article/:name"} element={<ArticlePage/>}></Route>
+                            <Route path={"/articles/:name"} element={<ArticlePage/>}></Route>
                             {/*<Route component={NotFoundPage}></Route>*/}
                         </Routes>
                     </Router>
