@@ -13,10 +13,12 @@ Nevermind -- I went back and erased the bootstrap. Going to use only custom CSS 
 
 Nevermind again. I am back to bootstrap. Here is the reason: I am trying to wrestle with `react-router-dom` and it's absolutely killing me. They upgraded from v5 to v6 and changed a whole bunch of stuff, making this nav bar tutorial useless to me.
 
-Wow... I am really wrestling with `react-router-dom`. It is very challenging to develop in an environment that has changed so drastically so quickly without any backwards compatibility. I have spent *hours* looking up stuff online about how to do certain things and everyone tells me different stuff. Eventually with experimentation I will figure it out, but it is *not* fun. 
+Wow... I am really wrestling with `react-router-dom`. It is very challenging to develop in an environment that has changed so drastically so quickly without any backwards compatibility. I have spent *hours* looking up stuff online about how to do certain things and everyone tells me different stuff. Eventually with experimentation I will figure it out, but it is *not* fun.
 
 ### July 11 2022
 I am starting now on the back end. I think this is what I need the most help with. Right now, I am using Express.js but I will explore Django afterwords. Then I will hook it up with AWS, but then explore Firebase after that. Once I have all those pieces down, I will make a site for my own home server.
+
+Most of the backend is set -- I have a server I can post requests from via *Postman* app, I have `nodemon` running to live refresh the server. I also have functionality that will allow for "upvoting" articles as well as leaving comments. I used a makeshift database to test it -- I will integrate MongoDB next.
 ______________________________
 # Documentation for React App
 

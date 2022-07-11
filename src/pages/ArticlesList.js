@@ -17,11 +17,12 @@ function ArticlesList(prop){
             {
                 articles.map(a =>{
                     return(
-                        <div className={"container"} key={a.key}>
-                            <div className={"container-sm"}>
-                                <a href={`/articles/${a.title}`} className={"link-secondary"}>{a.name}</a>
+                        <div className={"container px-4"} key={a.key}>
 
+                            <div className={"p-3 border bg-light"}>
+                                <a href={`/articles/${a.name}`} className={"link-secondary"}>{a.name}</a>
                             </div>
+
 
                         </div>
                     )
