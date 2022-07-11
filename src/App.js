@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 // bootstrap import: ---->
 import './bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,13 +16,14 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
+import NotFoundPage from "./pages/NotFoundPage";
 
 class App extends Component {
     render() {
         return (
             <div className={"App"}>
                 <NavBar />
-                <div className={"page-body"}>
+                <div className={"container-fluid"}>
                     <Router>
                         <Routes>
                             {/*add pages here --->*/}
@@ -30,6 +31,7 @@ class App extends Component {
                             <Route path={"/about"} element={<AboutPage/>}></Route>
                             <Route path={"/articles-list"} element={<ArticlesList/>}></Route>
                             <Route path={"/article/:name"} element={<ArticlePage/>}></Route>
+                            {/*<Route component={NotFoundPage}></Route>*/}
                         </Routes>
                     </Router>
                 </div>
