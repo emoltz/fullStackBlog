@@ -10,13 +10,14 @@ import ArticlePage from './pages/ArticlePage';
 import ArticlesList from './pages/ArticlesList';
 import NavBar from './NavBar';
 import React, {Component} from "react";
+import NotFoundPage from "./pages/NotFoundPage";
 
 import {
     BrowserRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
-import NotFoundPage from "./pages/NotFoundPage";
+
 
 class App extends Component {
     render() {
