@@ -19,6 +19,8 @@ Wow... I am really wrestling with `react-router-dom`. It is very challenging to 
 I am starting now on the back end. I think this is what I need the most help with. Right now, I am using Express.js but I will explore Django afterwords. Then I will hook it up with AWS, but then explore Firebase after that. Once I have all those pieces down, I will make a site for my own home server.
 
 Most of the backend is set -- I have a server I can post requests from via *Postman* app, I have `nodemon` running to live refresh the server. I also have functionality that will allow for "upvoting" articles as well as leaving comments. I used a makeshift database to test it -- I will integrate MongoDB next.
+
+So the installation for MongoDB via terminal commands don't work on a M1 chip right now. So I will have to do something else...!
 ______________________________
 # Documentation for React App
 
