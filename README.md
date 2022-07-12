@@ -21,6 +21,9 @@ I am starting now on the back end. I think this is what I need the most help wit
 Most of the backend is set -- I have a server I can post requests from via *Postman* app, I have `nodemon` running to live refresh the server. I also have functionality that will allow for "upvoting" articles as well as leaving comments. I used a makeshift database to test it -- I will integrate MongoDB next.
 
 So the installation for MongoDB via terminal commands don't work on a M1 chip right now. So I will have to do something else...!
+
+### July 12 2022
+Ran into another roadblock -- I am having trouble with Homebrew on this M1 machine and can't find a fix yet... I will spend some time figuring that out. Very frustrating. But I will have to practice Node.js in another environment without MongoDB. Off to another repo...! 
 ______________________________
 # Documentation for React App
 
